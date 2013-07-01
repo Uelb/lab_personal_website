@@ -1,0 +1,37 @@
+header{
+	text-align:center;
+	width:100%;
+	display:block;
+	padding-top:2%;
+	color:#C0C0C0;
+	font-family:Arial;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+hr{
+	width:50%;
+	margin: auto;
+}
+ul li {
+    float: left;
+    list-style: none;
+    margin-right: 1em; 
+}
+ 
+li a {
+    color: #544738;
+    text-decoration: none;
+    float: left;
+    font-size: 25px;
+    padding: 12px;
+}
+ 
+li a:hover {
+    color: #7eb9be;
+}
+nav{
+	margin:auto;
+	width:25%;
+	font-family: helvetica, sans-serif;
+}
