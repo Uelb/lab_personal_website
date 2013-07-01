@@ -1,4 +1,20 @@
+body{
+    font-family: Arial;
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+@font-face {
+    font-family: 'KulminoituvaRegular';
+    src: url('../font/kulminoituva-webfont.eot');
+    src: local('‚ò∫'), url('../font/kulminoituva-webfont.woff') format('woff'), url('../font/kulminoituva-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 header{
+    background:white;
+    z-index: 2;
+    position:fixed;
 	text-align:center;
 	width:100%;
 	display:block;
@@ -23,7 +39,7 @@ li a {
     color: #544738;
     text-decoration: none;
     float: left;
-    font-size: 25px;
+    font-size: 27px;
     padding: 12px;
 }
  
@@ -32,6 +48,58 @@ li a:hover {
 }
 nav{
 	margin:auto;
-	width:25%;
-	font-family: helvetica, sans-serif;
+	width:35%;
+	font-family: 'KulminoituvaRegular', helvetica, sans-serif;
+}
+.left a:hover {
+     
+    /*Transition*/
+    -webkit-transition:All .5s ease;
+    -moz-transition:All .5s ease;
+    -o-transition:All .5s ease;
+     
+    /*Transform*/
+    -webkit-transform: rotate(-10deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+}
+ 
+.right a:hover {
+ 
+    /*Transition*/
+    -webkit-transition:All .5s ease;
+    -moz-transition:All .5s ease;
+    -o-transition:All .5s ease;
+     
+    /*Transform*/
+    -webkit-transform: rotate(10deg) scale(1.2);
+    -moz-transform: rotate(10deg) scale(1.2);
+    -o-transform: rotate(10deg) scale(1.2);
+}
+.content-box {
+    display:block;
+    position: relative;
+    top: 200px;
+    z-index: 1;
+    margin: 0 auto;
+    background: #ddd;
+    background-color: rgba(256,256,256,0.7);
+    
+}
+
+#contact{
+    padding: 10px 10px 10px 10px;
+    width: 25%;
+}
+
+#profile{
+    display:block;
+    overflow: scroll;
+    width:80%;
+    text-align: left;
+    padding:2%;
+    height:65%;
+}
+.content-box img{
+    text-align: center;
 }
