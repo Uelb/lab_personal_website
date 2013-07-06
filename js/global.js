@@ -5,12 +5,9 @@ jQuery(function($){
 		// Functionality
 		slide_interval          :   5000,		// Length between transitions
 		transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
-		transition_speed		:	700,		// Speed of transition
-												   
+		transition_speed		:	700,		// Speed of transition						   
 		// Components							
 		slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
-		fit_landscape:1,
-		fit_portrait: 0,
 		slides 					:  	[			// Slideshow Images
 								{image : 'img/IMG_1438.JPG', title: "Kinkakuji during the momiji season, Kyoto"},
 								{image : 'img/IMG_4267.JPG', title: "Sunset near Osaka castle during ume season, Osaka"},
@@ -27,8 +24,8 @@ jQuery(function($){
 								{image : 'img/IMG_8002.JPG', title: "Japan most popular treasure Fujisan, Hakone"},
 								{image : 'img/IMG_8167.JPG', title: "Shibazakura festival, Kawaguchiko"},
 								{image : 'img/IMG_9875.JPG', title: "Ajisai paradise, Shimoda"}
-									]
-		
+									],
+		fit_always: 1
 	});
 });
 
